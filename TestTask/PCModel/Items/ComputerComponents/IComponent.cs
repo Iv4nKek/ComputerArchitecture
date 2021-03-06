@@ -1,6 +1,8 @@
-namespace TestTask.ComputerSelling.ComputerComponents
+using TestTask.ComputerSelling.Items;
+
+namespace TestTask.PCModel.Items.ComputerComponents
 {
-    public interface IComponent
+    public interface IComponent : IItem
     {
         
     }

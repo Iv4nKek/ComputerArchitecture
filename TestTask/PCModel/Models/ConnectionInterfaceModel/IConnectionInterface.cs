@@ -1,6 +1,6 @@
 namespace TestTask.ComputerSelling.Models.ConnectionInterfaceModel
 {
-    public interface IConnectionInterfaceModel
+    public interface IConnectionInterface
     {
         
     }
