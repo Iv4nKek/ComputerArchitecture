@@ -7,47 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="809c56ef-6a5e-47e0-a630-8b058a73cd3c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TestTask/PCModel/ComputerClass/ComputerClass.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestTask/PCModel/Hardware/Hardware.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestTask/PCModel/Hardware/Items/Computer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestTask/PCModel/Hardware/Items/ComputerComponents/ConnectionEstablisher.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestTask/PCModel/Hardware/Items/ComputerComponents/HardDrive.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestTask/PCModel/Hardware/Items/ComputerComponents/PowerSupply.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestTask/PCModel/Hardware/Items/ComputerComponents/Processor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestTask/PCModel/Hardware/Models/ComputerComponentModel/HardDriveModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestTask/PCModel/Hardware/Models/ComputerComponentModel/PowerSupplyModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestTask/PCModel/Hardware/Models/ComputerComponentModel/ProcessorModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestTask/PCModel/MetalCollection/IContainsMetal.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestTask/PCModel/MetalCollection/MetalCollector.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestTask/PCModel/Shop/ISellable.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestTask/PCModel/Shop/Lot.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestTask/PCModel/Shop/ShopCatalog.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestTask/PCModel/Software/ComputerSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TestTask/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestTask/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TestTask/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestTask/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestTask.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/TestTask.sln.DotSettings.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestTask/PCModel/Items/Computer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestTask/PCModel/Items/ComputerComponents/Component.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestTask/PCModel/Hardware/Items/ComputerComponents/Component.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestTask/PCModel/Items/ComputerComponents/ConnectionEstablisher.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestTask/PCModel/Items/ComputerComponents/IComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestTask/PCModel/Hardware/Items/ComputerComponents/IComponent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestTask/PCModel/Items/ComputerComponents/MotherBoard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestTask/PCModel/Hardware/Items/ComputerComponents/MotherBoard.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestTask/PCModel/Items/Connections/Connection.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestTask/PCModel/Items/Connections/IConnection.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestTask/PCModel/Items/IItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestTask/PCModel/Hardware/Items/IItem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestTask/PCModel/Items/System.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestTask/PCModel/Software/Application.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestTask/PCModel/Models/Atributes/FormFactor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestTask/PCModel/Hardware/Models/Attributes/FormFactor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestTask/PCModel/Models/Atributes/Socket.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestTask/PCModel/Hardware/Models/Attributes/Socket.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestTask/PCModel/Models/ComputerComponentModel/ComponentModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestTask/PCModel/Hardware/Models/ComputerComponentModel/ComponentModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestTask/PCModel/Models/ComputerComponentModel/IComponentModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestTask/PCModel/Hardware/Models/ComputerComponentModel/IComponentModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestTask/PCModel/Models/ComputerComponentModel/MotherboardModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestTask/PCModel/Hardware/Models/ComputerComponentModel/MotherboardModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestTask/PCModel/Models/ConnectionInterfaceModel/ConnectionInterface.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestTask/PCModel/Hardware/Models/ConnectionInterfaceModel/ConnectionInterface.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestTask/PCModel/Models/ConnectionInterfaceModel/ConnectionInterfacePool.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestTask/PCModel/Hardware/Models/ConnectionInterfaceModel/ConnectionInterfacePool.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestTask/PCModel/Models/ConnectionInterfaceModel/IConnectionInterface.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestTask/PCModel/Hardware/Models/ConnectionInterfaceModel/IConnectionInterface.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestTask/PCModel/Models/IModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestTask/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestTask/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestTask/TestTask.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TestTask/TestTask.csproj" afterDir="false" />
-    </list>
+    <list default="true" id="809c56ef-6a5e-47e0-a630-8b058a73cd3c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,6 +24,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/ivank/RiderProjects/TestTask/TestTask/PCModel/Software/ComputerSystem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/62FFEEB7-EC02-4BEA-B61E-5FBF8D44AC5B/4e/33225e20/ICollection`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/62FFEEB7-EC02-4BEA-B61E-5FBF8D44AC5B/c9/9101106d/List`1.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -103,7 +64,6 @@
       <option value="$PROJECT_DIR$/TestTask/PCModel/Hardware/Models/ComputerModel.cs" />
       <option value="$PROJECT_DIR$/TestTask/PCModel/MetalCollection/MetalConstruction.cs" />
       <option value="$PROJECT_DIR$/TestTask/PCModel/Software/Application.cs" />
-      <option value="$PROJECT_DIR$/TestTask/PCModel/Software/ComputerSystem.cs" />
       <option value="$PROJECT_DIR$/TestTask/PCModel/Hardware/Items/ComputerComponents/MotherBoard.cs" />
       <option value="$PROJECT_DIR$/TestTask/PCModel/Hardware/Models/ComputerComponentModel/IComponentModel.cs" />
       <option value="$PROJECT_DIR$/TestTask/PCModel/ComputerClass/ComputerClass.cs" />
@@ -120,6 +80,7 @@
       <option value="$PROJECT_DIR$/TestTask/PCModel/Hardware/Items/Computer.cs" />
       <option value="$PROJECT_DIR$/TestTask/PCModel/Shop/Lot.cs" />
       <option value="$PROJECT_DIR$/TestTask/PCModel/Hardware/Models/ComputerComponentModel/ComponentModel.cs" />
+      <option value="$PROJECT_DIR$/TestTask/PCModel/Software/ComputerSystem.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1pFk0bRcPUCZ8pQHCQqDfiGp62R" />
@@ -171,7 +132,7 @@
       <workItem from="1615022722186" duration="25730000" />
       <workItem from="1615114930993" duration="28269000" />
       <workItem from="1615152533008" duration="14440000" />
-      <workItem from="1615198414159" duration="8030000" />
+      <workItem from="1615198414159" duration="8396000" />
     </task>
     <task id="LOCAL-00001" summary="Components connection">
       <created>1615066696132</created>
@@ -180,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615066696132</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Solved tasks and added descriptions">
+      <created>1615206790490</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1615206790490</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
@@ -200,7 +168,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Components connection" />
-    <option name="LAST_COMMIT_MESSAGE" value="Components connection" />
+    <MESSAGE value="Solved tasks and added descriptions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solved tasks and added descriptions" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
