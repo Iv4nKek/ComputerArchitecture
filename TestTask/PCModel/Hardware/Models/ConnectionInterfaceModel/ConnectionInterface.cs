@@ -7,7 +7,10 @@ namespace TestTask.PCModel.Models.ConnectionInterfaceModel
     {
         private String name;
         
+        
         public string Name => name;
+        
+        
         public ConnectionInterface(string name)
         {
             this.name = name;

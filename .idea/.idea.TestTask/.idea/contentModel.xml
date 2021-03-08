@@ -3,6 +3,7 @@
   <component name="ContentModelStore">
     <e p="C:\Users\ivank\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
     <e p="C:\Users\ivank\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_TestTask.571448234.00" t="ExcludeRecursive" />
+    <e p="C:\Users\ivank\AppData\Roaming\JetBrains\Rider2020.3\scratches" t="IncludeRecursive" />
     <e p="C:\Users\ivank\RiderProjects\TestTask" t="IncludeFlat">
       <e p="packages" t="ExcludeRecursive" />
       <e p="TestTask" t="IncludeRecursive">
@@ -10,38 +11,56 @@
         <e p="obj" t="ExcludeRecursive" />
         <e p="packages.config" t="Include" />
         <e p="PCModel" t="Include">
-          <e p="Items" t="Include">
-            <e p="Computer.cs" t="Include" />
-            <e p="ComputerComponents" t="Include">
-              <e p="Component.cs" t="Include" />
-              <e p="ConnectionEstablisher.cs" t="Include" />
-              <e p="IComponent.cs" t="Include" />
-              <e p="MotherBoard.cs" t="Include" />
-            </e>
-            <e p="ConnectionInterfaces" t="Include" />
-            <e p="Connections" t="Include">
-              <e p="Connection.cs" t="Include" />
-              <e p="IConnection.cs" t="Include" />
-            </e>
-            <e p="IItem.cs" t="Include" />
-            <e p="System.cs" t="Include" />
+          <e p="ComputerClass" t="Include">
+            <e p="ComputerClass.cs" t="Include" />
           </e>
-          <e p="Models" t="Include">
-            <e p="Atributes" t="Include">
-              <e p="FormFactor.cs" t="Include" />
-              <e p="Socket.cs" t="Include" />
+          <e p="Hardware" t="Include">
+            <e p="Hardware.cs" t="Include" />
+            <e p="Items" t="Include">
+              <e p="Computer.cs" t="Include" />
+              <e p="ComputerComponents" t="Include">
+                <e p="Component.cs" t="Include" />
+                <e p="ConnectionEstablisher.cs" t="Include" />
+                <e p="HardDrive.cs" t="Include" />
+                <e p="IComponent.cs" t="Include" />
+                <e p="MotherBoard.cs" t="Include" />
+                <e p="PowerSupply.cs" t="Include" />
+                <e p="Processor.cs" t="Include" />
+              </e>
+              <e p="IItem.cs" t="Include" />
             </e>
-            <e p="ComputerComponentModel" t="Include">
-              <e p="ComponentModel.cs" t="Include" />
-              <e p="IComponentModel.cs" t="Include" />
-              <e p="MotherBoardModel.cs" t="Include" />
+            <e p="Models" t="Include">
+              <e p="Attributes" t="Include">
+                <e p="FormFactor.cs" t="Include" />
+                <e p="Socket.cs" t="Include" />
+              </e>
+              <e p="ComputerComponentModel" t="Include">
+                <e p="ComponentModel.cs" t="Include" />
+                <e p="HardDriveModel.cs" t="Include" />
+                <e p="IComponentModel.cs" t="Include" />
+                <e p="MotherBoardModel.cs" t="Include" />
+                <e p="PowerSupplyModel.cs" t="Include" />
+                <e p="ProcessorModel.cs" t="Include" />
+              </e>
+              <e p="ConnectionInterfaceModel" t="Include">
+                <e p="ConnectionInterface.cs" t="Include" />
+                <e p="ConnectionInterfacePool.cs" t="Include" />
+                <e p="IConnectionInterface.cs" t="Include" />
+              </e>
             </e>
-            <e p="ConnectionInterfaceModel" t="Include">
-              <e p="ConnectionInterface.cs" t="Include" />
-              <e p="ConnectionInterfacePool.cs" t="Include" />
-              <e p="IConnectionInterface.cs" t="Include" />
-            </e>
-            <e p="IModel.cs" t="Include" />
+          </e>
+          <e p="MetalCollection" t="Include">
+            <e p="IContainsMetal.cs" t="Include" />
+            <e p="MetalCollector.cs" t="Include" />
+          </e>
+          <e p="Shop" t="Include">
+            <e p="ISellable.cs" t="Include" />
+            <e p="Lot.cs" t="Include" />
+            <e p="ShopCatalog.cs" t="Include" />
+          </e>
+          <e p="Software" t="Include">
+            <e p="Application.cs" t="Include" />
+            <e p="ComputerSystem.cs" t="Include" />
           </e>
         </e>
         <e p="Program.cs" t="Include" />

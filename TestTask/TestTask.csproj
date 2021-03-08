@@ -9,7 +9,7 @@
         <AppDesignerFolder>Properties</AppDesignerFolder>
         <RootNamespace>TestTask</RootNamespace>
         <AssemblyName>TestTask</AssemblyName>
-        <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+        <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>
     </PropertyGroup>
     <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -42,29 +42,37 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="PCModel\Items\Computer.cs" />
-        <Compile Include="PCModel\Items\ComputerComponents\Component.cs" />
-        <Compile Include="PCModel\Items\ComputerComponents\ConnectionEstablisher.cs" />
-        <Compile Include="PCModel\Items\ComputerComponents\IComponent.cs" />
-        <Compile Include="PCModel\Items\ComputerComponents\MotherBoard.cs" />
-        <Compile Include="PCModel\Items\Connections\Connection.cs" />
-        <Compile Include="PCModel\Items\Connections\IConnection.cs" />
-        <Compile Include="PCModel\Items\IItem.cs" />
-        <Compile Include="PCModel\Items\System.cs" />
-        <Compile Include="PCModel\Models\Atributes\FormFactor.cs" />
-        <Compile Include="PCModel\Models\Atributes\Socket.cs" />
-        <Compile Include="PCModel\Models\ComputerComponentModel\IComponentModel.cs" />
-        <Compile Include="PCModel\Models\ComputerComponentModel\ComponentModel.cs" />
-        <Compile Include="PCModel\Models\ComputerComponentModel\MotherboardModel.cs" />
-        <Compile Include="PCModel\Models\ConnectionInterfaceModel\ConnectionInterface.cs" />
-        <Compile Include="PCModel\Models\ConnectionInterfaceModel\ConnectionInterfacePool.cs" />
-        <Compile Include="PCModel\Models\ConnectionInterfaceModel\IConnectionInterface.cs" />
-        <Compile Include="PCModel\Models\IModel.cs" />
+        <Compile Include="PCModel\ComputerClass\ComputerClass.cs" />
+        <Compile Include="PCModel\Hardware\Hardware.cs" />
+        <Compile Include="PCModel\Hardware\Items\Computer.cs" />
+        <Compile Include="PCModel\Hardware\Items\ComputerComponents\Component.cs" />
+        <Compile Include="PCModel\Hardware\Items\ComputerComponents\ConnectionEstablisher.cs" />
+        <Compile Include="PCModel\Hardware\Items\ComputerComponents\HardDrive.cs" />
+        <Compile Include="PCModel\Hardware\Items\ComputerComponents\IComponent.cs" />
+        <Compile Include="PCModel\Hardware\Items\ComputerComponents\MotherBoard.cs" />
+        <Compile Include="PCModel\Hardware\Items\ComputerComponents\PowerSupply.cs" />
+        <Compile Include="PCModel\Hardware\Items\ComputerComponents\Processor.cs" />
+        <Compile Include="PCModel\Hardware\Items\IItem.cs" />
+        <Compile Include="PCModel\Hardware\Models\Attributes\FormFactor.cs" />
+        <Compile Include="PCModel\Hardware\Models\Attributes\Socket.cs" />
+        <Compile Include="PCModel\Hardware\Models\ComputerComponentModel\ComponentModel.cs" />
+        <Compile Include="PCModel\Hardware\Models\ComputerComponentModel\HardDriveModel.cs" />
+        <Compile Include="PCModel\Hardware\Models\ComputerComponentModel\IComponentModel.cs" />
+        <Compile Include="PCModel\Hardware\Models\ComputerComponentModel\MotherboardModel.cs" />
+        <Compile Include="PCModel\Hardware\Models\ComputerComponentModel\PowerSupplyModel.cs" />
+        <Compile Include="PCModel\Hardware\Models\ComputerComponentModel\ProcessorModel.cs" />
+        <Compile Include="PCModel\Hardware\Models\ConnectionInterfaceModel\ConnectionInterface.cs" />
+        <Compile Include="PCModel\Hardware\Models\ConnectionInterfaceModel\ConnectionInterfacePool.cs" />
+        <Compile Include="PCModel\Hardware\Models\ConnectionInterfaceModel\IConnectionInterface.cs" />
+        <Compile Include="PCModel\MetalCollection\IContainsMetal.cs" />
+        <Compile Include="PCModel\MetalCollection\MetalCollector.cs" />
+        <Compile Include="PCModel\Shop\ISellable.cs" />
+        <Compile Include="PCModel\Shop\ShopCatalog.cs" />
+        <Compile Include="PCModel\Shop\Lot.cs" />
+        <Compile Include="PCModel\Software\Application.cs" />
+        <Compile Include="PCModel\Software\ComputerSystem.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
-    </ItemGroup>
-    <ItemGroup>
-      <Folder Include="PCModel\Items\ConnectionInterfaces" />
     </ItemGroup>
     <ItemGroup>
       <None Include="packages.config" />

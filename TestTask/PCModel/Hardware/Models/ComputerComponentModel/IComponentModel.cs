@@ -5,7 +5,7 @@ using TestTask.ComputerSelling.Models.ConnectionInterfaceModel;
 
 namespace TestTask.ComputerSelling.ComputerComponentModel
 {
-    public interface IComponentModel : IModel
+    public interface IComponentModel 
     {
         ConnectionInterfacePool GetConnectionInterfacePool();
     }
